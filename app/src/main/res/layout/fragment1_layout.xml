@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="end"
+        android:background="#9E9D24">
+        <ImageView
+            android:id="@+id/ham"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/ic_baseline_menu_24"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ed_design"
+        android:layout_marginTop="100dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ph. No. : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#0f0f0f"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+91 9123456789"
+        android:textSize="20sp"
+        android:textColor="#0f0f0f"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/email"
+        android:layout_below="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ed_design"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#0f0f0f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abcde@xyz.com"
+            android:textSize="20sp"
+            android:textColor="#0f0f0f"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "823879284392",
+    "firebase_url": "https://teamworks-e3f81.firebaseio.com",
+    "project_id": "teamworks-e3f81",
+    "storage_bucket": "teamworks-e3f81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823879284392:android:dc548d84369e2d2d88b49d",
+        "android_client_info": {
+          "package_name": "com.example.teamworks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823879284392-gcei2dbs9a8ogum89jfgo1kn5gbami5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT9epStEn5BOxhJTCRQYe8LVYqYdlPdeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823879284392-gcei2dbs9a8ogum89jfgo1kn5gbami5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
